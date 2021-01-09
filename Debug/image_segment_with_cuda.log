@@ -1,0 +1,117 @@
+﻿  Compiling CUDA source file ..\..\download\CUDA_study-master\Sum_Matrix\sum_martix.cu...
+  
+  D:\project\image_segment_with_cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\sum_martix.cu.obj "D:\download\CUDA_study-master\Sum_Matrix\sum_martix.cu" 
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\download\CUDA_study-master\Sum_Matrix\cudastart.h(25): error : identifier "gettimeofday" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(25): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(36): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(59): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(60): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(65): error : identifier "nx" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(65): error : identifier "ny" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(70): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(72): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(72): error : declaration is incompatible with "int printf(const char *, ...)"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948): here
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(72): error : too many initializer values
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(72): error : a value of type "const char *" cannot be used to initialize an entity of type "int"
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(75): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(75): error : declaration is incompatible with "cudaError_t cudaMemcpy(void *, const void *, size_t, cudaMemcpyKind)"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include\cuda_runtime_api.h(5781): here
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(75): error : identifier "C_from_gpu" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(75): error : identifier "C_dev" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(75): error : identifier "nBytes" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(75): error : too many initializer values
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(77): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(77): error : declaration is incompatible with "void sumMatrix2DonCPU(float *, float *, float *, int, int)"
+  (7): here
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(77): error : identifier "A_host" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(77): error : identifier "B_host" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(77): error : identifier "C_host" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(77): error : too many initializer values
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(79): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(79): error : variable "printf" has already been defined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(79): error : too many initializer values
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(79): error : a value of type "const char *" cannot be used to initialize an entity of type "int"
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(82): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(83): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(83): error : declaration is incompatible with "void checkResult(float *, float *, int)"
+  D:\download\CUDA_study-master\Sum_Matrix\cudastart.h(49): here
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(83): error : too many initializer values
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(85): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(85): error : declaration is incompatible with "cudaError_t cudaFree(void *)"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include\cuda_device_runtime_api.h(145): here
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(85): error : identifier "A_dev" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(86): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(86): error : variable "cudaFree" has already been defined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(86): error : identifier "B_dev" is undefined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(87): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(87): error : variable "cudaFree" has already been defined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(88): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(88): error : declaration is incompatible with "void free(void *)"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_malloc.h(85): here
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(89): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(89): error : variable "free" has already been defined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(90): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(90): error : variable "free" has already been defined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(91): error : this declaration has no storage class or type specifier
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(91): error : variable "free" has already been defined
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(92): error : explicit type is missing ("int" assumed)
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(92): error : cannot overload functions distinguished by return type alone
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(93): error : expected a declaration
+  
+D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu(94): error : expected a declaration
+  
+  52 errors detected in the compilation of "D:/download/CUDA_study-master/Sum_Matrix/sum_martix.cu".
+  sum_martix.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\extras\visual_studio_integration\MSBuildExtensions\CUDA 11.1.targets(785,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\sum_martix.cu.obj "D:\download\CUDA_study-master\Sum_Matrix\sum_martix.cu"”已退出，返回代码为 1。

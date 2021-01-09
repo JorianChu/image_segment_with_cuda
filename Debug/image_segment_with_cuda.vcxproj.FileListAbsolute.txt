@@ -1,0 +1,2 @@
+D:\project\image_segment_with_cuda\Debug\image_segment_with_cuda.exe
+D:\project\image_segment_with_cuda\Debug\image_segment_with_cuda.pdb
